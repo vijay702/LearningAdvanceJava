@@ -1,0 +1,13 @@
+package org.studyeasy.springdemo;
+
+public class BasketballCoach implements Coach{
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Do 30 minutes jumping practice ";
+	}
+
+	
+
+}

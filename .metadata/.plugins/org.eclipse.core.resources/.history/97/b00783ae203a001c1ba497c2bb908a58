@@ -1,0 +1,34 @@
+package org.studyeasy.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("trackCoach")
+public class Trackcoach implements Coach {
+
+    @Autowired()    
+	private  FortuneService fortuneService;
+	
+	
+
+	public Trackcoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyworkout() {
+	
+		return "run 30 hkm";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		
+		
+		//use a my fortune to get fortune 
+
+		return fortuneService.getFortune();
+	}
+
+	
+}

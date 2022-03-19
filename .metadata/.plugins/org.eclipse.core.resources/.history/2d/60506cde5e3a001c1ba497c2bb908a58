@@ -1,0 +1,34 @@
+package com.luv2code.dbtest;
+
+public class DbTest {
+
+	public static void main(String[] args) {
+	
+		
+		// db variables 
+		
+		String user = "springstudent1";
+		String password = "springstudent1";
+		
+		String jdbcUrl = "jdbc:mysql://localhost:3306/hb_student_tracker1?useSSL=false";
+		
+		
+		try {
+			
+			
+			
+		}catch (Exception exc) {
+			
+			exc.printStackTrace();
+			
+			
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

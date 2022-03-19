@@ -1,0 +1,17 @@
+package org.studyeasy.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component("trackCoach")
+public class Trackcoach implements Coach {
+
+
+
+	@Override
+	public String getDailyworkout() {
+	
+		return "run 30 hkm";
+	}
+
+	
+}

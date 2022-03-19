@@ -1,0 +1,14 @@
+package org.studyeasy.springdemo;
+
+
+@Component
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+
+		return "Have a Good Day";
+	}
+
+	
+}

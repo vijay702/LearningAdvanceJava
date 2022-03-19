@@ -1,0 +1,27 @@
+
+Oct 05, 2021 12:29:44.356 NEW SESSION
+Oct 05, 2021 12:29:44.357 [4908:7384:1005/122944.293:ERROR:edge_auth_errors.cc(387)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2138701818, hex:80860006, Error string: Error code: 0x80860006, error message:Error
+Oct 05, 2021 12:29:44.357 
+Oct 05, 2021 12:29:50.227 [4908:7384:1005/122950.227:ERROR:device_event_log_impl.cc(214)] [12:29:50.227] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct 05, 2021 12:29:50.234 [4908:7384:1005/122950.233:ERROR:device_event_log_impl.cc(214)] [12:29:50.233] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct 05, 2021 12:29:50.351 [4908:9964:1005/122950.351:ERROR:chrome_browser_main_extra_parts_metrics.cc(250)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct 05, 2021 12:29:50.353 [4908:9964:1005/122950.353:ERROR:chrome_browser_main_extra_parts_metrics.cc(254)] crbug.com/1216328: Checking default browser status ended.
+Oct 05, 2021 12:29:51.388 [4908:7384:1005/122951.388:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&prerender=1
+Oct 05, 2021 13:40:36.872 [4908:7384:1005/134036.872:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&prerender=1
+Oct 05, 2021 14:21:54.79 [4908:7384:1005/142154.078:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&prerender=1
+Oct 05, 2021 14:21:54.879 [4908:7384:1005/142154.879:ERROR:fallback_task_provider.cc(119)] Every renderer should have at least one task provided by a primary task provider. If a fallback task is shown, it is a bug. Please file a new bug and tag it as a dependency of crbug.com/739782.
+Oct 05, 2021 14:43:37.491 [4908:7384:1005/144337.491:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&prerender=1
+Oct 05, 2021 14:43:44.871 [4908:7384:1005/144344.870:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://devtools.azureedge.net/serve_file/@fd65e6bbedc86a22f2393b7cd8d1585c54cada42/third_party/webhint/worker_frame.html
+Oct 05, 2021 14:44:11.723 [4908:7384:1005/144411.722:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://devtools.azureedge.net/serve_file/@fd65e6bbedc86a22f2393b7cd8d1585c54cada42/third_party/webhint/worker_frame.html
+Oct 05, 2021 14:44:32.345 [4908:7384:1005/144432.345:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://devtools.azureedge.net/serve_file/@fd65e6bbedc86a22f2393b7cd8d1585c54cada42/third_party/webhint/worker_frame.html
+Oct 05, 2021 14:44:42.488 [4908:7384:1005/144442.487:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://devtools.azureedge.net/serve_file/@fd65e6bbedc86a22f2393b7cd8d1585c54cada42/third_party/webhint/worker_frame.html
+Oct 05, 2021 14:45:28.65 [4908:7384:1005/144528.064:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://devtools.azureedge.net/serve_file/@fd65e6bbedc86a22f2393b7cd8d1585c54cada42/third_party/webhint/worker_frame.html
+Oct 05, 2021 14:45:32.461 [4908:7384:1005/144532.461:ERROR:smartscreen_dns_resolver.cc(100)] SmartScreenDnsResolver::OnComplete Error: -106 DidTimeOut: 0 URL: https://devtools.azureedge.net/serve_file/@fd65e6bbedc86a22f2393b7cd8d1585c54cada42/third_party/webhint/worker_frame.html
+Oct 05, 2021 16:25:55.40 [4908:7384:1005/162555.040:ERROR:device_event_log_impl.cc(214)] [16:25:55.039] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+
+Oct 24, 2021 14:46:36.439 NEW SESSION
+Oct 24, 2021 14:46:36.439 [1808:1724:1024/144636.411:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+Oct 24, 2021 14:46:36.541 [1808:1724:1024/144636.411:ERROR:cache_util.cc(147)] Unable to move cache folder C:\Users\ELCOT\AppData\Local\Microsoft\Edge\User Data\ShaderCache\GPUCache to C:\Users\ELCOT\AppData\Local\Microsoft\Edge\User Data\ShaderCache\old_GPUCache_001
+Oct 24, 2021 14:46:36.542 [1808:1724:1024/144636.518:ERROR:disk_cache.cc(184)] Unable to create cache
+Oct 24, 2021 14:46:36.542 [1808:1724:1024/144636.518:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Oct 24, 2021 14:46:38.778 Opening in existing browser session.

@@ -1,0 +1,28 @@
+package org.studyeasy.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AnnotationDemoApp {
+
+	public static void main(String[] args) {
+	
+		
+		// application context read config file
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application.xml");
+		
+		//retrive beans from spring container 
+		
+		
+		Coach theCoach = context.getBean("thatSillyCoach",Coach.class);
+		
+		// call methods opn bean 
+		
+	System.out.println(	theCoach.getDailyWorkout());
+		
+		
+		// closae the context 
+          context.close();
+	}
+
+}

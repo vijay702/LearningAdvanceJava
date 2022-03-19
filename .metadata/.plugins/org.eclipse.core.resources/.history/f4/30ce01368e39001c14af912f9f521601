@@ -1,0 +1,16 @@
+package org.studyeasy.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component("thatSillyCoach")
+public class BasketBallCoach implements Coach {
+
+	@Override
+	public String getDailyworkout() {
+		// TODO Auto-generated method stub
+		return "do highJump 30 minutes ";
+	}
+
+	
+
+}

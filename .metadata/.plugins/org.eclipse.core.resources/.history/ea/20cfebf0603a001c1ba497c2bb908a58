@@ -1,0 +1,10 @@
+package com.lu2code.demo;
+
+public class DemoCreate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

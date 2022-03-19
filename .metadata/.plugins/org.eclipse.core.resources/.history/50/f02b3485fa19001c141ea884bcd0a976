@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Set Request Property </title>
+</head>
+<body>
+<jsp:getProperty property="firstWord" name="user" />
+<jsp:getProperty property="lastWord" name="user" />
+
+
+<jsp:useBean id="user" class="org.studyeasy.bean.Demo" scope="request"></jsp:useBean>
+<jsp:setProperty property="firstWord" name="user" value="vijay"/>
+<jsp:setProperty property="lastWord" name="user" value="sevanthi" />
+value have been set
+
+
+<jsp:getProperty property="firstWord" name="user" />
+<jsp:getProperty property="lastWord" name="user" />
+
+</body>
+</html>
